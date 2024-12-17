@@ -14,6 +14,8 @@
   }
 
   .header-place {
+    width: 335px;
+    height: 32px;
     margin-top: 20px;
     margin-left: 20px;
     display: flex;
@@ -21,8 +23,22 @@
     justify-content: space-between;
   }
 
+  #cross-svg {
+    margin-top: -10px;
+    margin-right: 20px;
+  }
+
   .svg {
     gap: 135px;
+  }
+
+  #svg-cross {
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 323px;
+    margin-right: 20px;
+    margin-bottom: 244px;
   }
 
   .header-mobile-menu {
@@ -36,6 +52,7 @@
     justify-content: center;
     flex-direction: column;
     row-gap: 24px;
+    z-index: 999;
   }
 
   .header-mobile-menu button {
@@ -75,5 +92,8 @@
     font-size: 18px;
     line-height: 20px;
     border: none;
+  }
+
+  .is-open {
   }
 }
