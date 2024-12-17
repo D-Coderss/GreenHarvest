@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Section1 css*/
+.section1{
+    background-color: #576F35;
+    color: #FBFBFB;
+    font-family: 'Inter Tight', sans-serif;
+}
+.section1-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 328px;
+}
+.section1-header{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -1.5%;
+text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 20px;
+}
+.section1-text{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.section1-image-container{
+    
+   background-image: url(../images/section1img.jpg);
+   height: 372px;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
