@@ -1,14 +1,5 @@
-@medya (min-width:320px) and (max-width:768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   body {
     background-color: #576f35;
-  }
-
-  .headerplace {
-    width: 335px;
-    height: 32px;
-  }
-  .svg {
-    width: 168px;
-    height: 16px;
   }
 }
