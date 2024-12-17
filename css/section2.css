@@ -1,0 +1,18 @@
+/* mobile first */
+body {
+    font-size: 14px;
+}
+
+/* Tablet cihazlar için (768px ve üstü) */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Desktop cihazlar için (1024px ve üstü) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
