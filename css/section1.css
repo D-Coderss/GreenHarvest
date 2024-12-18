@@ -5,13 +5,14 @@ body{
 }
 /*Section1 mobile first css*/
 .section1{
+    height: 840px;
     padding-top: 48px;
     background-color: #576F35;
     color: #FBFBFB;
     font-family: 'Inter Tight', sans-serif;
 }
 .section1-container{
-    
+    padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
@@ -43,6 +44,7 @@ margin-bottom: 20px;
    background-position: center;
    
 }
+/*Section1 tablet css*/
 @media (min-width:768px) {
     .section1{
         height: 1020px;
@@ -80,6 +82,7 @@ margin-bottom: 20px;
         background-position: center;
     }
 }
+/*Section1 desktop css*/
 @media (min-width:1280px){
     .section1{
         height: 796px;
