@@ -1,178 +1,82 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
 body {
-  width: 100%;
-  height: auto;
-  background-color: #576f35;
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
+/*HEADER CONTAİNER*/
 .header-container {
-  width: 351px;
-  height: 32px;
+  display: none;
 }
 
-.header-place {
-  width: 100%;
-  height: 32px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  gap: 135px;
-  align-items: center;
-  z-index: 1;
-}
-
-.header-mobile-menu {
-  width: 100%;
+/* Menü Konteyneri */
+.menu-container {
+  width: 375px;
   height: 812px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  z-index: 999;
-  background-color: #576f35;
-}
-
-.is-open {
-  visibility: visible;
-}
-
-#svg-cross {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
-.header-mobile-menu button {
-  width: 118px;
-  height: 44px;
-  border: 1px solid #fbfbfb;
-  background-color: #576f35;
-  color: #fbfbfb;
-  border-radius: 12px;
-}
-
-.header-three-btn {
-  height: 100%;
+  background-color: #576f35; /* Yeşil renk tonu */
+  margin: auto;
+  position: relative;
+  color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 24px;
   align-items: center;
   justify-content: center;
 }
-
-#first-btn {
-  background-color: #fbfbfb;
-  color: #7a3145;
-}
-
-.header-one-btn button {
-  width: 175px;
-  height: 52px;
-  background-color: #7a3145;
-  color: #fbfbfb;
-  margin-bottom: 52px;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 20px;
-  border: none;
+/* Kapatma Butonu */
+.menu-header {
   position: absolute;
-  bottom: 0;
-  right: 50%;
-  left: 50%;
-  translate: -50%;
+  top: 10px;
+  right: 10px;
 }
-
-/*TABLET VİEW*/
-
-@media (min-width: 768px) and (max-width: 1280px) {
-  .header-container {
-    z-index: 999;
-    width: 704px;
-    height: 40px;
-    margin-top: 32px;
-    margin-left: 32px;
-  }
-
-  /*.header-mobile-menu {
-    visibility: hidden;
-    BUNU AÇ
-  }*/
-
-  .svg {
-    width: 216px;
-    height: 20px;
-  }
-
-  .header-place {
-    gap: 448px;
-    padding: 10px;
-    padding-left: 0px;
-  }
-
-  .three-svg {
-    width: 40px;
-    height: 40px;
-  }
-
-  .header-mobile-menu {
-    width: 351px;
-    height: 1020px;
-    margin-left: 417px;
-  }
+.cross {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
 }
-
-@media (min-width: 1280px) {
-  .header-container {
-    width: 1280px;
-    height: 52px;
-    margin-top: 32px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  #three-svg {
-    display: none;
-  }
-  #svg-cross {
-    display: none;
-  }
-
-  .header-mobile-menu {
-    background-color: transparent;
-  }
-
-  .header-btn-container {
-    width: 498px;
-    height: 52px;
-    display: flex;
-    flex-direction: row;
-  }
-  .header-three-btn {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #first-btn {
-    width: 118px;
-    height: 44px;
-  }
-
-  #second-btn {
-    width: 104px;
-    height: 44px;
-  }
-
-  #third-btn {
-    width: 83px;
-    height: 44px;
-  }
-
-  #shop-btn {
-    width: 157px;
-    height: 52px;
-  }
+/* Menü Öğeleri */
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.menu-item {
+  background-color: #fff;
+  color: #7a3145;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.menu-button {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.menu-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* "Shop Now" Butonu */
+.shop-now {
+  position: absolute;
+  bottom: 20px;
+}
+.shop-now-btn {
+  background-color: #8b1e3f; /* Koyu kırmızı */
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.shop-now-btn:hover {
+  background-color: #5c132a;
 }
