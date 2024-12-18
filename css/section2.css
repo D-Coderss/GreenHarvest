@@ -16,6 +16,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter Tight', sans-serif;
+    list-style: none;
 }
 .section2-container{
     width: 100%;
@@ -196,7 +197,26 @@
 }
 /* Desktop cihazlar için (1024px ve üstü) */
 @media (min-width: 1024px) {
-    body {
-        font-size: 18px;
+    .section2-container{
+        height: 760px;
+        display: flex;
+    }
+
+    .section2-image-container{
+        margin: 0;
+        padding: 100px;
+        height: 100%;
+        width: 640px;
+    }
+
+    .section2-image{
+        width: 440px;
+        height: 550px;
+    }
+
+    .section2-text-container{
+        height: 100%;
+        margin: 0;
+        padding: 100px;
     }
 }
