@@ -105,7 +105,8 @@ margin-bottom: 20px;
        line-height: 20px;
        font-weight: 500;
        padding-top: 128px;
-       padding-right: 200px;
+       padding-right: 32px;
+       padding-bottom: 52px;
        width: 472px;
        height: 80px;
     }
