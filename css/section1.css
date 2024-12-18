@@ -88,19 +88,26 @@ margin-bottom: 20px;
         padding-top: 0px;
     }
     .section1-container{
-        padding-right: 38px;
-        padding-top: 148px;
-        margin-left: 100px;
+        padding-right: 36px;
+        padding-top: 232px;
+        padding-left: 100px;
         width: 504px;
         height: 564px;
     }
     .section1-header{
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
         
-        padding-bottom: 128px;
     }
     .section1-text{
-        margin-bottom: 52px;
-        margin-right: 32px;
+       font-size: 16px;
+       line-height: 20px;
+       font-weight: 500;
+       padding-top: 128px;
+       padding-right: 200px;
+       width: 472px;
+       height: 80px;
     }
     .section1-image-container{
         
