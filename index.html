@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/section5.css" />
     <link rel="stylesheet" type="text/css" href="./css/section6.css" />
     <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,6 +25,32 @@
   <body>
     <header>
       <!-- nur  -->
+
+    <header class="header-container">
+      <!-- nur  -->
+      <div class="header-place">
+        <svg class="svg">
+          <use href="./icons.svg#headersvg"></use>
+        </svg>
+        <svg id="cross-svg" width="32" height="32">
+          <use href="./images/symbol-defs.svg#threelines"></use>
+        </svg>
+      </div>
+      <div class="header-mobile-menu is-open">
+        <div id="svg-cross">
+          <svg width="32" height="32">
+            <use href="./images/symbol-defs.svg#cross"></use>
+          </svg>
+        </div>
+        <div class="header-three-btn">
+          <button id="first-btn">How İt Works</button>
+          <button>Vegetables</button>
+          <button>Reviews</button>
+        </div>
+        <div class="header-one-btn">
+          <button>SHOP NOW</button>
+        </div>
+      </div>
     </header>
     <main>
       <section>
@@ -108,12 +135,84 @@
             vitamins and keep your health
           </p>
         </div>
+
       </section>
+     
       <section>
         <!-- umut -->
       </section>
-      <section>
+      <section id="reviews">
         <!-- ahmet -->
+        <div class="container reviews-container">
+          <div class="reviews-text-container">
+            <h2 class="reviews-heading">
+              reviews from our <span class="reviews-customers">customers</span>
+            </h2>
+            <p class="reviews-subheading">
+              Words of our customers: impressions and opinions about the quality
+              of our services and the freshness of our products.
+            </p>
+          </div>
+
+          <ul class="reviews-card-container">
+            <li class="reviews-card reviews-first-card">
+              <div class="reviews-profile-container john-wax-container">
+                <img
+                  class="john wax profile picture"
+                  src="./images/john-wax.png"
+                  alt="john wax profile picture"
+                  width="56px"
+                  height="56px"
+                />
+              </div>
+
+              <h2 class="reviews-card-title">John Wax</h2>
+              <p class="reviews-card-text">
+                These vegetables are my secret to delicious and healthy meals.
+                The quality is always at the highest level, the aroma and taste
+                are enchanting. I advise every fan of real products!
+              </p>
+            </li>
+
+            <li class="reviews-card reviews-second-card">
+              <div class="reviews-profile-container victoria-container">
+                <img
+                  class="victoria profile picture"
+                  src="./images/victoria.png"
+                  alt="victoria profile picture"
+                  width="56px"
+                  height="56px"
+                />
+              </div>
+
+              <h2 class="reviews-card-title">Victoria Romashenko</h2>
+              <p class="reviews-card-text">
+                I love how fast and fresh the vegetables are delivered. Salads
+                always turn out so appetizing, and soups are real masterpieces.
+                The quality is impeccable!
+              </p>
+            </li>
+
+            <li class="reviews-card reviews-third-card">
+              <div class="reviews-profile-container ihor-container">
+                <img
+                  class="ihor profile picture"
+                  src="./images/ihor.png"
+                  alt="ihor profile picture"
+                  width="56px"
+                  height="56px"
+                />
+              </div>
+
+              <h2 class="reviews-card-title">Ihor Trachuk</h2>
+              <p class="reviews-card-text">
+                Recently tried my fresh tomatoes and peppers - amazing! The
+                authenticity of the taste, as if from the garden directly to my
+                table. It is now my main vegetable supplier.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
         <!-- berkan  -->
