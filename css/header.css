@@ -53,6 +53,7 @@
     flex-direction: column;
     row-gap: 24px;
     z-index: 999;
+    visibility: hidden;
   }
 
   .header-mobile-menu button {
@@ -95,5 +96,7 @@
   }
 
   .is-open {
+    visibility: visible;
+    z-index: 999;
   }
 }
