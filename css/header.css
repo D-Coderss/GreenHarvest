@@ -88,7 +88,7 @@ body {
 
 /*TABLET VİEW*/
 
-@media (min-width: 768px) and (max-width: 1020px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .header-container {
     z-index: 999;
     width: 704px;
@@ -122,5 +122,57 @@ body {
     width: 351px;
     height: 1020px;
     margin-left: 417px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-container {
+    width: 1280px;
+    height: 52px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #three-svg {
+    display: none;
+  }
+  #svg-cross {
+    display: none;
+  }
+
+  .header-mobile-menu {
+    background-color: transparent;
+  }
+
+  .header-btn-container {
+    width: 498px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+  }
+  .header-three-btn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #first-btn {
+    width: 118px;
+    height: 44px;
+  }
+
+  #second-btn {
+    width: 104px;
+    height: 44px;
+  }
+
+  #third-btn {
+    width: 83px;
+    height: 44px;
+  }
+
+  #shop-btn {
+    width: 157px;
+    height: 52px;
   }
 }
