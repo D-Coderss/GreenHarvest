@@ -25,31 +25,32 @@
   </head>
 
   <body>
-    <main>
-      <header class="header-container">
-        <!-- nur  -->
-        <div class="header-place">
-          <svg class="svg">
-            <use href="./icons.svg#headersvg"></use>
-          </svg>
-          <svg id="cross-svg" width="32" height="32">
-            <use href="./images/symbol-defs.svg#threelines"></use>
+
+    <!-- nur  -->
+    <!--HEADER CONTAİNER-->
+    <header class="header-container">
+      <div class="header-place">
+        <svg class="svg" width="168px" height="16px">
+          <use href="./images/symbol-defs.svg#hardvest"></use>
+        </svg>
+        <svg class="three-svg" width="32px" height="32px">
+          <use href="./images/symbol-defs.svg#three-lines"></use>
+        </svg>
+      </div>
+      <div class="menu-container is-open">
+        <div class="menu-header">
+          <svg class="cross" width="32" height="32">
+            <use href="./images/symbol-defs.svg#cross"></use>
           </svg>
         </div>
-        <div class="header-mobile-menu">
-          <div id="svg-cross">
-            <svg width="32" height="32">
-              <use href="./images/symbol-defs.svg#cross"></use>
-            </svg>
-          </div>
-          <div class="header-three-btn">
-            <button id="first-btn">How İt Works</button>
-            <button>Vegetables</button>
-            <button>Reviews</button>
-          </div>
-          <div class="header-one-btn">
-            <button>SHOP NOW</button>
-          </div>
+        <div class="menu-items">
+          <button class="menu-item">How It Works</button>
+          <button class="menu-button">Vegetables</button>
+          <button class="menu-button review">Reviews</button>
+        </div>
+        <div class="shop-now">
+          <button class="shop-now-btn">SHOP NOW</button>
+
         </div>
       </header>
       <section class="section1">
@@ -357,5 +358,7 @@
       </div>
       
     </footer>
+    <!--nur mobile menu-->
+    <!--MENU CONTAİNER-->
   </body>
 </html>
