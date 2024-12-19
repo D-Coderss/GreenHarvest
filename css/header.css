@@ -39,7 +39,7 @@
 }
 
 .is-open {
-  visibility: visible;
+  visibility: hidden;
 }
 /* Close button */
 .menu-header {
@@ -149,5 +149,85 @@
     height: 52px;
     margin-bottom: 48px;
     color: #7a3145;
+  }
+}
+
+/*DESKTOP VİEW*/
+
+@media (min-width: 1280px) {
+  .menu-container {
+    visibility: visible;
+  }
+
+  .header-container {
+    width: 1280px;
+    height: 52px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .svg {
+    width: 216px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .three-svg,
+  .cross {
+    visibility: hidden;
+  }
+
+  .menu-container {
+    width: 498px;
+    height: 52px;
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .menu-item {
+    background-color: transparent;
+    color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+  }
+
+  .menu-button {
+    width: 104px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review {
+    width: 83px;
+    height: 44px;
+  }
+
+  .shop-now {
+    width: 157px;
+    height: 44px;
+    margin-top: 32px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  .shop-now-btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
   }
 }
