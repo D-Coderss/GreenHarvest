@@ -189,6 +189,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 24px;
+    z-index: 999;
+    visibility: hidden;
   }
 
   .menu-items {
@@ -229,5 +235,8 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 20px;
+  .is-open {
+    visibility: visible;
+    z-index: 999;
   }
 }
