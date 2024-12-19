@@ -89,3 +89,14 @@
     background-color: #FBFBFB;
 
 }
+
+/* tablet view */
+@media (min-width: 768px) {
+    
+}
+
+
+/* desktop view */
+@media (min-width: 1280px) {
+    
+}
