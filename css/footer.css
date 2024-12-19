@@ -17,7 +17,7 @@
 .footer-text-container{
     width: 335px;
     height: 368px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .footer-icon-container{
     display: flex;
@@ -93,8 +93,15 @@
     color: #FBFBFB;
 }
 
-.footer-contactinfo{
-    margin-bottom: 80px;
+.footer-bottom{
+    display: flex;
+    color: #D4BFC4;
+}
+
+.footer-privacy-2{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
 }
 
 
