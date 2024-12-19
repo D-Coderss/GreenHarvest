@@ -17,11 +17,11 @@
     font-family: 'Inter Tight', sans-serif;
 }
 html {
-    font-size: 10px;
+    font-size: 12px;
 }
-.container {
+.section-5 {
     width: 100%;
-    max-width: 1440px;
+    
     padding: 80px 20px;
     margin: 0 auto;
     background-color: #FBFBFB;
@@ -45,7 +45,7 @@ img {
     }
 } 
 .reviews {
-    font-size: 10px;
+    font-size: 12px;
 }   
 .reviews-card-container {
     display: flex;
@@ -53,7 +53,7 @@ img {
     scroll-snap-type: x mandatory;
     gap: 10px;
     position: relative;
-    height: 238px
+    height: 248px
 }
 
 .reviews-text-container {
