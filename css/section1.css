@@ -30,6 +30,7 @@
 }
 .section1-text{
     margin: 0px;
+    padding-right: 6px;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -88,25 +89,24 @@
         padding-top: 0px;
     }
     .section1-container{
+        height: auto;
+        width: auto;
         padding-right: 36px;
         padding-top: 232px;
-        padding-left: 100px;
-        width: 504px;
-        height: 564px;
+        margin-bottom: 52px;
+        margin-left: 100px;
+        
     }
     .section1-header{
-        font-size: 76px;
-        font-weight: 600;
-        line-height: 76px;
+        margin: 0;
+        height: 304px;
+        width: 502px;
         
     }
     .section1-text{
-       font-size: 16px;
-       line-height: 20px;
-       font-weight: 500;
+       margin-right: 32px;
        padding-top: 128px;
-       padding-right: 32px;
-       padding-bottom: 52px;
+       
        width: 472px;
        height: 80px;
     }
