@@ -6,7 +6,8 @@
     font-family: 'Inter Tight', sans-serif;
 }
 
-    /*
+
+@media (min-width:1280px){
 section {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -173,8 +174,18 @@ form button:hover {
 
 .e a:hover {
     text-decoration: underline;
-}
-*/
+}}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width:768px) {
 section {
@@ -199,7 +210,7 @@ section {
     height: 276px;
     padding: 64px;
     gap: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -232,7 +243,7 @@ h1 span {
 .d {
     width: 640px;
     height: 632px;
-    padding: 72px 100px 72px 100px;
+    padding: 72px 100px 0px 100px;
     gap: 10px;
     border-radius: 30px;
     background-color: #fff;
@@ -303,7 +314,7 @@ form button:hover {
 .e {
     width: 640px;
     height: 528px;
-    padding: 52px 0px 0px 0px;
+    padding: 52px ;
     gap: 52px;
     border-radius: 30px;
     background-color: rgba(122, 49, 69, 1);
@@ -313,7 +324,7 @@ form button:hover {
 .e img {
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 40px; /* Aralık küçültüldü */ 
+    margin-bottom: 40px; 
 }
 
 .e p {
@@ -350,3 +361,184 @@ form button:hover {
     text-decoration: underline;
 }
 }
+
+
+
+
+
+/*mobile first*/
+
+
+section {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4E6B3C; 
+    color: #fff;
+}
+
+.a {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.b {
+    text-align: center;
+    padding: 0 20px;
+    gap: 16px;
+}
+
+.b h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.b h1 span {
+    color: #B8A49B;
+}
+
+.b p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+.c {
+    width: 100%;
+    padding: 0 20px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d {
+    width: 335px;
+    padding: 40px 20px;
+    gap: 40px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+.d h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.f {
+    color: rgba(122, 49, 69, 1);
+}
+
+.i {
+    color: rgba(87, 111, 53, 1);
+}
+
+
+form input, 
+form textarea {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    width: 295px;
+    height: auto;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
+
+form button {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 295px;
+    padding: 16px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(122, 49, 69, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #B8A49B;
+}
+
+
+.e {
+    width: 335px;
+    padding: 40px 20px;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: rgba(122, 49, 69, 1);
+    color: #fff;
+    text-align: center;
+}
+
+.e img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.e p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.e nav a {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.e nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
