@@ -166,10 +166,12 @@
   .header-container {
     width: 1280px;
     height: 52px;
-    margin-top: 32px;
+    position: absolute;
+    top: 32px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: transparent;
   }
 
   .svg {
@@ -194,6 +196,7 @@
     flex-direction: row;
     right: 100px;
     z-index: 999;
+    background-color: transparent;
   }
 
   .menu-items {
