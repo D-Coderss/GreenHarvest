@@ -113,11 +113,11 @@
     width: 768px;
   }
   .header-place {
+    width: 704px;
+    height: 40px;
     display: flex;
     flex-direction: row;
-  }
-
-  .three-svg {
+    justify-content: space-between;
     position: absolute;
     right: 32px;
   }
@@ -131,6 +131,7 @@
   }
 
   .menu-container {
+    visibility: hidden;
     position: absolute;
     right: 0;
     left: auto;
