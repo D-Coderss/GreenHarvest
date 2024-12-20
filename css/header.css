@@ -13,11 +13,15 @@
 .header-place {
   width: 335px;
   height: 32px;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 8px 0px;
   display: flex;
   flex-direction: row;
   gap: 135px;
   align-items: center;
+  position: absolute;
+  right: 20px;
+  left: 20px;
 }
 
 /* MENU CONTAİNER */
@@ -184,11 +188,11 @@
   .menu-container {
     width: 498px;
     height: 52px;
-    position: inherit;
+    position: absolute;
+    top: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    right: 100px;
     z-index: 999;
   }
 
@@ -230,5 +234,9 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 20px;
+    .is-open {
+      visibility: visible;
+      z-index: 999;
+    }
   }
 }

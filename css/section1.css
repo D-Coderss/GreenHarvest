@@ -1,0 +1,123 @@
+
+
+/*Section1 mobile first css*/
+.section1{
+    height: auto;
+    padding-top: 48px;
+    background-color: #576F35;
+    color: #FBFBFB;
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0px;
+}
+.section1-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 328px;
+}
+.section1-header{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.section1-text{
+    margin: 0px;
+    padding-right: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.section1-image-container{
+   background-image: url(../images/section1-img.jpg);
+   height: 372px;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+/*Section1 tablet css*/
+@media (min-width:768px) {
+    .section1{
+        height: 1020px;
+    }
+    .section1-container{
+        width: 704px;
+        height: 312px;
+        padding: 0;
+        padding: 120px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 52px;
+
+    }
+    .section1-header{
+        font-size: 76px;
+        line-height: 76px;
+        
+        font-weight: 600;
+        display: flex;
+        margin-bottom: 24px;
+        
+    }
+    .section1-text{
+        width: 603px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .section1-image-container{
+        background-image: url(../images/section1-tablet-img.jpg);
+        height: 536px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+/*Section1 desktop css*/
+@media (min-width:1280px){
+    .section1{
+        height: 796px;
+        display:flex ;
+        flex-direction: row;
+        padding-top: 0px;
+    }
+    .section1-container{
+        height: auto;
+        width: auto;
+        padding-right: 36px;
+        padding-top: 232px;
+        margin-bottom: 52px;
+        margin-left: 100px;
+        
+    }
+    .section1-header{
+        margin: 0;
+        height: 304px;
+        width: 502px;
+        
+    }
+    .section1-text{
+       margin-right: 32px;
+       padding-top: 128px;
+       
+       width: 472px;
+       height: 80px;
+    }
+    .section1-image-container{
+        
+        height: 796px;
+        width: 640px;
+        background-image: url(../images/section1-desktop-img.jpg);
+        
+        
+        
+    }
+    
+}
