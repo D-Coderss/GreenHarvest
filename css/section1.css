@@ -44,12 +44,12 @@
 }
 /*Section1 tablet css*/
 @media (min-width:768px) {
-    .section1{
-        height: 1020px;
-    }
+    
     .section1-container{
-        
-        margin-top: 120px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        margin-top: 48px;
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 52px;
@@ -73,6 +73,7 @@
     }
     .section1-image-container{
         background-image: url(../images/section1-tablet-img.jpg);
+        width: 768px;
         height: 536px;
         background-repeat: no-repeat;
         background-position: center;
