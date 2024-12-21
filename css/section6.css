@@ -1,0 +1,544 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile first*/
+
+
+section {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4E6B3C; 
+    color: #fff;
+}
+
+.section-6 {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.section6_title {
+    text-align: center;
+    padding: 0 20px;
+    gap: 16px;
+}
+
+.section6_title h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.section6_title h1 span {
+    color: #B8A49B;
+}
+
+.section6_title p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+.section6_blockandform {
+    width: 100%;
+    padding: 0 20px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6_form {
+    width: 335px;
+    padding: 40px 20px;
+    gap: 40px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #333;
+}
+
+.section6_form h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.f {
+    color: rgba(122, 49, 69, 1);
+}
+
+.i {
+    color: rgba(87, 111, 53, 1);
+}
+
+
+form input, 
+form textarea {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    width: 295px;
+    height: auto;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
+
+form button {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 295px;
+    padding: 16px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(122, 49, 69, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #B8A49B;
+}
+
+
+.section6_block {
+    width: 335px;
+    padding: 40px 20px;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: rgba(122, 49, 69, 1);
+    color: #fff;
+    text-align: center;
+}
+
+.section6_block img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.section6_block p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.section6_block nav section-6 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section6_block nav a:hover {
+    text-decoration: underline;
+}
+@media (min-width:768px) {
+    section {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #4E6B3C; 
+        color: #fff;
+    }
+    
+    .section-6 {
+        width: 768px;
+        height: 1720px;
+        padding-top: 5388px;
+        padding: 100px 0px 100px 0px;
+        gap: 52px;
+        margin-bottom: 24px;
+    }
+    
+    
+    .section6_title {
+        width: 640px;
+        height: 276px;
+        padding: 64px;
+        gap: 24px;
+        margin-bottom: 100px;
+    }
+    
+    h1 {
+        font-size: 48px; 
+        margin: 0;
+        color: #FFFFFF; 
+    }
+    
+    h1 span {
+        color: #B8A49B; 
+    }
+    
+    .section6_title p {
+        font-size: 14px;
+        line-height: 1.4;
+        max-width: 742px;
+    }
+    
+    
+    .section6_blockandform {
+        width: 768px;
+        height: 1192px;
+        padding: 0px 64px 0px 64px;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .section6_form {
+        width: 640px;
+        height: 632px;
+        padding: 72px 100px 0px 100px;
+        gap: 10px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #333;
+    }
+    
+    .section6_form h2 {
+        
+        font-size: 32px; 
+        font-weight: 600;
+        margin-bottom: 40px; 
+        color: #000;
+    }
+    .f{
+        color:rgba(122, 49, 69, 1);
+    
+    
+    }
+    .i{
+        color: rgba(87, 111, 53, 1);
+    
+    }
+    
+    form label {
+        font-size: 12px;
+        color: #333;
+        display: block;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    
+    form input {
+        width: 100%;
+        padding: 8px; 
+        margin-bottom: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 20px; 
+        font-size: 12px; 
+    }
+    
+    form textarea {
+        width: 100%;
+        padding: 8px; 
+        margin-bottom: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 20px; 
+        font-size: 12px; /
+    }
+    
+    form button {
+        background-color: rgba(122, 49, 69, 1);
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        padding: 10px;
+        width: 100%;
+        font-size: 14px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    form button:hover {
+        background-color: #B8A49B;
+    }
+    
+    
+    
+    .section6_block {
+        width: 640px;
+        height: 528px;
+        padding: 52px ;
+        gap: 52px;
+        border-radius: 30px;
+        background-color: rgba(122, 49, 69, 1);
+        color: #fff;
+    }
+    
+    .section6_block img {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 40px; 
+    }
+    
+    .section6_block p {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-bottom: 8px;
+        color: rgba(251, 251, 251, 0.5);
+    }
+    
+    
+    
+    .section6_block nav {
+        display: flex;
+        justify-content: left; 
+        gap: 4px; 
+        flex-wrap: wrap; 
+    }
+    
+    .section6_block section-6 {   
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: 'Inter Tight', sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .section6_block a:hover {
+        text-decoration: underline;
+    }
+    }
+@media (min-width:1280px){
+    section {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #4E6B3C; 
+        color: #fff;
+    }
+    
+    .section-6 {
+        padding: 100px;
+        margin-bottom: 24px;
+    }
+    
+    
+    .section6_title {
+        margin-bottom: 30px;
+        width: 751px; 
+        height: 192px; 
+    }
+    
+    h1 {
+        font-size: 64px;
+        margin: 0;
+        color: #FFFFFF; 
+    }
+    
+    h1 span {
+        color: #B8A49B; 
+    }
+    
+    .section6_title p {
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 742px;
+    }
+    
+    
+    .section6_blockandform {
+        display: flex;
+        gap: 32px;
+    }
+    
+    
+    .section6_form {
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 30px;
+        max-width: 350px;
+        color: #333;
+    }
+    
+    .section6_form h2 {
+        
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        line-height: 21px; 
+        letter-spacing: -0.015em; 
+        text-align: left; 
+        text-underline-position: from-font; 
+        text-decoration-skip-ink: none; 
+        font-size: 21px;
+        font-weight: bold;
+        margin-bottom: 52px; 
+        color: #000;
+    }
+    .f{
+        color:rgba(122, 49, 69, 1);
+    
+    
+    }
+    .i{
+        color: rgba(87, 111, 53, 1);
+    
+    }
+    
+    form label {
+        font-size: 12px;
+        color: #333;
+        display: block;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    
+    form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px ;  
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px ;  
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    
+    form button {
+        background-color: rgba(122, 49, 69, 1);
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        padding: 10px;
+        width: 100%;
+        font-size: 14px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    form button:hover {
+        background-color: #B8A49B;
+    }
+    
+    
+    
+    .section6_block {
+        background-color: rgba(122, 49, 69, 1);
+        border-radius: 30px;
+        padding: 24px;
+        max-width: 350px;
+        text-align: left; 
+    }
+    
+    .section6_block img {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 80px; 
+    }
+    
+    .section6_block p {
+        font-family: 'Inter Tight', sans-serif;
+        font-size: 12px; 
+        font-weight: 700; 
+        line-height: 16px; 
+        margin-bottom: 8px; 
+        color: rgba(251, 251, 251, 0.5);
+    
+    }
+    
+    .section6_block nav {
+        display: flex;
+        justify-content: left; 
+        gap: 4px; 
+        flex-wrap: wrap; 
+    }
+    
+    .section6_block section-6 {   
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: 'Inter Tight', sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .section6_block a:hover {
+        text-decoration: underline;
+    }}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
