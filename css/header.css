@@ -2,8 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter Tight", sans-serif;
 }
-
 
 .header-container {
   width: 375px;
@@ -68,7 +68,7 @@
   align-items: center;
 }
 
-.menu-items a{
+.menu-items a {
   text-decoration: none;
 }
 .menu-item {
@@ -123,12 +123,11 @@
     width: 768px;
   }
   .header-place {
-    width: auto;
+    width: 704px;
+    height: 40px;
     display: flex;
     flex-direction: row;
-  }
-
-  .three-svg {
+    justify-content: space-between;
     position: absolute;
     right: 32px;
   }
@@ -142,6 +141,7 @@
   }
 
   .menu-container {
+    visibility: hidden;
     position: absolute;
     right: 0;
     left: auto;
