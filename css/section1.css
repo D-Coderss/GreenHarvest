@@ -83,16 +83,18 @@
 @media (min-width:1280px){
     
     .section1{
+        width: 100%;
         height: 796px;
         display:flex ;
         flex-direction: row;
+        justify-content: space-between;
         padding-top: 0px;
     }
     .section1-container{
         padding: 0;
         margin: 0;
         height: auto;
-        width: auto;
+        width: 504px;
         padding-right: 36px;
         padding-top: 232px;
         margin-bottom: 52px;

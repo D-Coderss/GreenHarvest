@@ -36,6 +36,7 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: black;
 }
 
 /* Tablet cihazlar için (768px ve üstü) */
@@ -63,6 +64,7 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    color: black;
   }
 }
 
