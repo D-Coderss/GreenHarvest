@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter Tight", sans-serif;
+  
 }
 
 .section3-container {
@@ -91,5 +92,8 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    color: black;
   }
+
+
 }
