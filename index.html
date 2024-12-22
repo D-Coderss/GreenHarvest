@@ -39,23 +39,23 @@
           <use href="./images/symbol-defs.svg#three-lines"></use>
         </svg>
       </div>
-      <div class="menu-container is-open">
+      <div class="menu-container">
         <div class="menu-header">
           <svg class="cross" width="32" height="32">
             <use href="./images/symbol-defs.svg#cross"></use>
           </svg>
         </div>
         <div class="menu-items">
-          <button class="menu-item">How It Works</button>
-          <button class="menu-button">Vegetables</button>
-          <button class="menu-button review">Reviews</button>
+          <a href="#how-it-works"><button class="menu-item">How It Works</button> </a>
+          <a href="#vegetables"><button class="menu-button">Vegetables</button> </a>
+          <a href="#reviews"><button class="menu-button review">Reviews</button> </a>
         </div>
         <div class="shop-now">
           <button class="shop-now-btn">SHOP NOW</button>
         </div>
         </div>
       </header>
-      <section class="section1">
+      <section class="section1" id="hero">
         <!-- esat -->
         <div class="section1-container">
           <h1 class="section1-header">
@@ -70,12 +70,14 @@
         </div>
         <div class="section1-image-container"></div>
       </section>
-      <section>
+      <section id="how-it-works">
         <!-- section 2 Kaan  -->
+        <h2 class="section2-hidden-title hidden"> gizli baslik </h2>
+
         <div class="section2-container">
           <div class="section2-image-container">
             <img
-              srcset="./images/section2Mobile.png x1, ./images/section2Tablet.png , ./images/section2Desktop.png "
+                srcset="./images/section2Mobile.png 375w, ./images/section2Tablet.png 768w, ./images/section2Desktop.png 1280w"
               alt="section2-image"
               class="section2-image"
             />
@@ -83,7 +85,7 @@
           <div class="section2-text-container">
             <div class="section2-entery-text">
               <h2 class="section2-title">
-                to order your <span> vegetable </span> basket, simplay follow
+                to order your <span> vegetable </span> basket, simply follow
                 these <span> easy steps </span>
               </h2>
               <p class="section2-p">
@@ -141,7 +143,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="advertisement">
         <!-- section 3 Kaan -->
         <div class="section3-container">
           <p class="section3-text2">
@@ -150,7 +152,7 @@
           </p>
         </div>
       </section>
-      <section>
+      <section id="vegetables">
         <!-- Section 4 Kaan -->
         <div class="section4-container">
           <div class="section4-text">
@@ -219,7 +221,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section id="reviews">
         <!-- ahmet -->
 
         <div class="section-5 reviews-container">
@@ -245,7 +247,7 @@
                 />
               </div>
 
-              <h2 class="reviews-card-title">John Wax</h2>
+              <h2 class="reviews-card-title">JOHN WAX</h2>
               <p class="reviews-card-text">
                 These vegetables are my secret to delicious and healthy meals.
                 The quality is always at the highest level, the aroma and taste
@@ -264,7 +266,7 @@
                 />
               </div>
 
-              <h2 class="reviews-card-title">Victoria Romashenko</h2>
+              <h2 class="reviews-card-title">VICTORIA ROMASHENKO</h2>
               <p class="reviews-card-text">
                 I love how fast and fresh the vegetables are delivered. Salads
                 always turn out so appetizing, and soups are real masterpieces.
@@ -283,7 +285,7 @@
                 />
               </div>
 
-              <h2 class="reviews-card-title">Ihor Trachuk</h2>
+              <h2 class="reviews-card-title">IHOR TRACHUK</h2>
               <p class="reviews-card-text">
                 Recently tried my fresh tomatoes and peppers - amazing! The
                 authenticity of the taste, as if from the garden directly to my
@@ -293,16 +295,16 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section id="your-order">
         <!-- berkan  -->
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <!-- Footer Kaan -->
       <div class="footer-container">
         <div class="footer-text-container">
           <div class="footer-tablet-left">
-            <a href="index.html">
+            <a href="./index.html">
               <div class="footer-icon-container">
                 <svg class="footer-icon2" width="16px" height="16px">
                   <use
@@ -355,7 +357,5 @@
         </div>
       </div>
     </footer>
-    <!--nur mobile menu-->
-    <!--MENU CONTAİNER-->
   </body>
 </html>

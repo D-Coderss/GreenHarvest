@@ -18,10 +18,14 @@
     font-family: 'Inter Tight', sans-serif;
     list-style: none;
 }
+
+.hidden{
+    display: none;
+}
+
 .section2-container{
     width: 100%;
     height: 1208px;
-
 }
 
 .section2-image-container{
@@ -196,8 +200,9 @@
     }
 }
 /* Desktop cihazlar için (1024px ve üstü) */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     .section2-container{
+        width: 100%;
         height: 760px;
         display: flex;
     }
@@ -206,7 +211,7 @@
         margin: 0;
         padding: 100px;
         height: 100%;
-        width: 640px;
+        width: 100%;
     }
 
     .section2-image{
@@ -214,9 +219,16 @@
         height: 550px;
     }
 
+    .section2-title{
+        width: 440px;
+        height: 96px;
+    }
+
+
     .section2-text-container{
         height: 100%;
         margin: 0;
         padding: 100px;
+        width: 100%;
     }
 }
